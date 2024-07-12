@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import './index.css';
+import "./index.css";
 // import App-v1 from "./App-v1";
 import App from "./App";
 // import StarRating from "./StarRating";
