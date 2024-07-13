@@ -79,10 +79,10 @@ export default function App() {
       </p>
       <p>
         <button
-          onClick={() => dispatch({ type: "withdraw", payload: 50 })}
+          onClick={() => dispatch({ type: "withdraw", payload: 500 })}
           disabled={!isActive}
         >
-          withdraw 50
+          withdraw 500
         </button>
       </p>
       <p>
