@@ -2,12 +2,12 @@ import { useState, useEffect, useContext } from "react";
 import { faker } from "@faker-js/faker";
 import { PostProvider, usePosts } from "./postContext";
 
-function createRandomPosts() {
-  return {
-    title: `${faker.hacker.adjective()} ${faker.hacker.noun()}`,
-    body: faker.hacker.phrase(),
-  };
-}
+// function createRandomPosts() {
+//   return {
+//     title: `${faker.hacker.adjective()} ${faker.hacker.noun()}`,
+//     body: faker.hacker.phrase(),
+//   };
+// }
 
 function App() {
   // const x = usePosts();
